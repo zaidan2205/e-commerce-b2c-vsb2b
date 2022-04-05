@@ -1,1 +1,1 @@
-# e-commerce-b2c-vsb2b
+# e-commerce-b2c-vs-b2b
