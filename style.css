@@ -1,0 +1,310 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Rockwell;
+}
+
+p{
+	text-indent: 0.5in;
+}
+
+.p{
+	text-indent: 0in
+}
+
+.konten{
+	width: 100%;
+	height: 100vh;
+}
+
+.logo{
+	width: 120px;
+	cursor: pointer;
+}
+
+.navbardsr{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: rgb(250, 250, 250);
+	top: 0;
+	position: sticky;
+}
+
+.navbar{
+	width: 85%;
+	margin: auto;
+	padding: 4px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: rgb(250, 250, 250);
+	top: 0;
+	position: sticky;
+}
+
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: black;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+
+.navbar ul li:hover:after{
+	width: 100%;
+}
+
+.isi{
+	width: 90%;
+	margin: auto;
+	text-align: justify;
+}
+
+.footer{
+	width: 100%;
+	background-color: black;
+}
+
+.headerutama{
+	width: 100%;
+	margin: auto;
+	padding: 60px 0;
+	display: flex;
+	justify-content: center;
+	background-image: linear-gradient(rgba(0,0,0,0.30), rgba(0,0,0,0.30)),url(background.png);
+}
+
+.header{
+	width: 100%;
+	margin: auto;
+	padding: 60px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.header1{
+	width: 35%;
+	margin: auto;
+	padding: 4px 0;
+	display: flex;
+	justify-content: right;
+	float: left;
+}
+
+.header2{
+	width: 30%;
+	margin: auto;
+	padding: 4px 0;
+	display: flex;
+	justify-content: center;
+	float: left;
+}
+
+.header3{
+	width: 35%;
+	margin: auto;
+	padding: 4px 0;
+	display: flex;
+	justify-content: left;
+	float: left;
+}
+
+.judul{
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.footer{
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	font-size: 30px;
+	background-color: black;
+	color: white;
+}
+
+.kiri{
+	width: 48%;
+	float: left;
+	text-align: justify;
+}
+
+.kanan{
+	width: 48%;
+	float: left;
+	text-align: justify;
+}
+
+.tengah{
+	width: 4%;
+	float: left;
+	text-align: justify;
+}
+
+.kirift{
+	width: 45%;
+	margin-left: 3%;
+	margin-right: 2%;
+	float: left;
+	text-align: justify;
+	background-color: black;
+	color: white;
+}
+
+.kananft{
+	width: 40%;
+	margin-left: 10%;
+	margin-right: 0%;
+	float: left;
+	text-align: justify;
+	background-color: black;
+	color: white;
+}
+
+.satu{
+	width: 80%;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin: auto;
+	text-align: justify;
+}
+
+.list {
+	margin-left: 6%
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.th {
+  text-align: center;
+  font-size: 18px;
+  padding: 8px;
+}
+
+.td {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.img1 {
+	border-radius: 20px;
+	margin: auto;
+}
+
+.bayar {
+     width: 90px;
+     height: 40px;
+     border: 4px solid white;
+     padding: 10px;
+}
+
+.bayar1 {
+     width: 100px;
+     height: 50px;
+     border: 4px solid white;
+     padding: 5px;
+}
+
+.bayar2 {
+     width: 110px;
+     height: 60px;
+     border: 4px solid white;
+     padding: 0px;
+}
+
+.bayarkotak {
+     width: 60px;
+     height: 60px;
+     border: 4px solid white;
+     padding-top: 0px;
+     padding-bottom: 0px;
+     padding-right: 25px;
+     padding-left: 25px;
+}
+
+.bayarpanjang {
+     width: 100px;
+     height: 20px;
+     border: 4px solid white;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     padding-right: 5px;
+     padding-left: 5px;
+}
+
+.bayarpanjang1 {
+     width: 100px;
+     height: 30px;
+     border: 4px solid white;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     padding-right: 5px;
+     padding-left: 5px;
+}
+
+.bayarpanjang2 {
+     width: 100px;
+     height: 50px;
+     border: 4px solid white;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-right: 5px;
+     padding-left: 5px;
+}
+
+.btn-outline-light {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn-outline-light:hover {
+  color: #000;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-social {
+  border-radius: 100%;
+  display: inline-flex;
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+}
+
+.mx-1 {
+  margin-right: 0.25rem !important;
+  margin-left: 0.25rem !important;
+}
